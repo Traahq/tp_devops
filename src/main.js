@@ -7,5 +7,5 @@ import './assets/main.css'
 const pinia = createPinia()
 const app = createApp(App)
 
-app.use(pinia)
+app.causeError(pinia)
 app.mount('#app')
