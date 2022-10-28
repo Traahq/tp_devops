@@ -3,7 +3,7 @@
         <WeatherHeader class="header" v-bind:title="title"></WeatherHeader>
         <WeatherContent class="content"></WeatherContent>
         <WeatherFooter class="footer">
-            <template v-slot:message>Vue Weather App from TestDriven.io Blog</template>
+            <template v-slot:message>Vue Weather Application</template>
             <template v-slot:link><a href="https://testdriven.io">TestDriven.io</a></template>
         </WeatherFooter>
     </div>
